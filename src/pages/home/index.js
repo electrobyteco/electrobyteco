@@ -1,15 +1,11 @@
-import styled from "styled-components";
 import Navbar from "../../components/navbar";
-import Footer from "../../components/footer";
 import Header from "./header";
-
-const Apps = styled.section`
-  height: 200px;
-`;
-const Showcase = styled.section``;
-const Team = styled.section``;
-const WorkForm = styled.section``;
-const Contact = styled.section``;
+import Apps from "./apps";
+import Showcase from "./showcase";
+import Team from "./team";
+import Work from "./work";
+import Contact from "./contact";
+import Footer from "../../components/footer";
 
 export default function Home() {
   return (
@@ -19,7 +15,7 @@ export default function Home() {
       <Apps />
       <Showcase />
       <Team />
-      <WorkForm />
+      <Work />
       <Contact />
       <Footer />
     </div>
