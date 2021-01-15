@@ -31,18 +31,18 @@ const Input = styled.input`
   font-size: 18px;
 `;
 
-const Textarea = styled.input`
+const Textarea = styled.textarea`
   margin-top: 10px;
   display: block;
-  height: 40px;
+  min-height: 100px;
   border-radius: 5px;
   background: #281d53;
   width: 100%;
   color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding: 10px;
   font-family: "Gilroy";
   font-size: 18px;
+  resize: vertical;
 `;
 
 const InputImitator = styled.div`
@@ -180,7 +180,7 @@ function Work() {
               </FormGroup>
               <FormGroup>
                 <FormLabel>Description</FormLabel>
-                <Field name="description" type="text" as={Textarea} />
+                <Field name="description" type="text" as={Textarea} rows="2" />
                 <ErrorMessage name="description" component={FieldError} />
               </FormGroup>
               <FormGroup>

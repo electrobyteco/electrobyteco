@@ -51,7 +51,7 @@ const ContactItem = styled.div`
 
 function Contact() {
   return (
-    <Section screen={true}>
+    <Section>
       <Section.BackgroundImage src={BackgroundFlamingo} fade={true} />
       <SectionDivider />
       <Section.Body>
