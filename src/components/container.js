@@ -6,6 +6,10 @@ const Container = styled.div`
   width: 75%;
   min-width: 1280px;
   margin: 0 auto;
+  @media (max-width: 1280px) {
+    min-width: auto;
+    width: 95%;
+  }
 `;
 
 export default Container;

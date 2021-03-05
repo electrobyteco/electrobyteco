@@ -28,6 +28,16 @@ const Card = styled.div`
   margin: 30px;
   background: rgba(23, 30, 38, 0.1);
   backdrop-filter: blur(20px);
+  @media (max-width: 1280px) {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+  }
+  @media (max-width: 600px) {
+    height: 150px;
+    width: 150px;
+    margin: 10px;
+  }
 `;
 
 const CardTitle = styled.div`
@@ -35,12 +45,22 @@ const CardTitle = styled.div`
   font-weight: bold;
   margin-top: 10px;
   color: ${(props) => (props.color ? props.color : "white")};
+
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
+`;
+
+const CardImage = styled.img`
+  @media (max-width: 600px) {
+    width: 50px;
+  }
 `;
 
 function Software({ name, icon, color }) {
   return (
     <Card draggable>
-      <img src={icon} alt={name} />
+      <CardImage src={icon} alt={name} />
       <CardTitle color={color}>{name}</CardTitle>
     </Card>
   );
@@ -50,27 +70,33 @@ const SoftwareGrid = styled.div`
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  @media (max-width: 1280px) {
+  }
 `;
 
 function Showcase() {
   return (
-    <Section screen={true}>
+    <Section id="tech" screen={true}>
       <Section.BackgroundImage src={BackgroundSunset} fade={true} />
       <Section.Heading>Tech We Use</Section.Heading>
       <Section.Body>
         <SoftwareGrid>
-          <Software name="Express" icon={IconExpress} color="white" />
+          <Software name="Express" icon={IconExpress} color="#3AA840" />
           <Software name="GraphQL" icon={IconGraphQL} color="white" />
-          <Software name="Mongodb" icon={IconMongodb} color="white" />
-          <Software name="React" icon={IconReact} color="white" />
-          <Software name="Figma" icon={IconFigma} color="white" />
-          <Software name="Github" icon={IconGithub} color="white" />
-          <Software name="Mysql" icon={IconMysql} color="white" />
+          <Software name="MongoDB" icon={IconMongodb} color="white" />
+          <Software name="React" icon={IconReact} color="#00D8FF" />
+          <Software name="Figma" icon={IconFigma} color="#EF533F" />
+          <Software name="GitHub" icon={IconGithub} color="white" />
+          <Software name="MySQL" icon={IconMysql} color="white" />
           <Software name="Laravel" icon={IconLaravel} color="white" />
-          <Software name="Node" icon={IconNode} color="white" />
-          <Software name="ReactNative" icon={IconReactNative} color="white" />
-          <Software name="Php" icon={IconPhp} color="white" />
-          <Software name="Python" icon={IconPython} color="white" />
+          <Software name="Node" icon={IconNode} color="#8CC84B" />
+          <Software
+            name="React Native"
+            icon={IconReactNative}
+            color="#00D8FF"
+          />
+          <Software name="PHP" icon={IconPhp} color="white" />
+          <Software name="Python" icon={IconPython} color="#FFD550" />
         </SoftwareGrid>
       </Section.Body>
     </Section>

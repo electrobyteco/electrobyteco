@@ -74,6 +74,9 @@ const Form = styled.form`
   display: block;
   width: 50%;
   margin: 0 auto;
+  @media (max-width: 1280px) {
+    width: 90%;
+  }
 `;
 
 const Budget = styled.div`
@@ -113,7 +116,7 @@ function Work() {
   }
 
   return (
-    <Section>
+    <Section id="work">
       <Section.Heading>Work with us</Section.Heading>
       <Section.Body>
         <Formik

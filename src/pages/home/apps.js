@@ -23,6 +23,13 @@ const Card = styled.div`
   &:hover {
     transform: translateY(-30px);
   }
+
+  @media (max-width: 1280px) {
+    width: 30%;
+    min-height: 400px;
+    height: 45vh;
+    margin-bottom: 50px;
+  }
 `;
 const CardLink = styled.a`
   position: absolute;
@@ -59,11 +66,15 @@ const SectionBody = styled(Section.Body)`
   padding-bottom: 100px;
   justify-content: space-between;
   perspective: 1000px;
+  @media (max-width: 1280px) {
+    flex-direction: column;
+    align-items: center;
+  }
 `;
 
 function Apps() {
   return (
-    <Section>
+    <Section id="apps">
       <Section.Heading>Apps</Section.Heading>
       <SectionBody>
         <App

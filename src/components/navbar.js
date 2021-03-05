@@ -26,6 +26,11 @@ const NavbarContainer = styled(Container)`
 const Logo = styled.div`
   font-size: 42px;
   text-transform: uppercase;
+  @media (max-width: 1280px) {
+    width: 100vw;
+    font-size: 36px;
+    text-align: center;
+  }
 `;
 
 const Links = styled.div`
@@ -33,6 +38,9 @@ const Links = styled.div`
   display: flex;
   font-size: 24px;
   text-transform: lowercase;
+  @media (max-width: 1280px) {
+    display: none;
+  }
 `;
 
 const Link = styled.div`
@@ -50,20 +58,32 @@ const Link = styled.div`
   }
 `;
 
-const Navbar = () => (
-  <Wrapper>
-    <NavbarContainer>
-      <Logo>Electrobyte</Logo>
-      <Links>
-        <Link>Home</Link>
-        <Link>Apps</Link>
-        <Link>Tech</Link>
-        <Link>Team</Link>
-        <Link>Work With Us</Link>
-        <Link>Contact</Link>
-      </Links>
-    </NavbarContainer>
-  </Wrapper>
-);
+function smoothScrollTo(query = null, margin = 200) {
+  let top = query ? document.querySelector(query).offsetTop : 0;
+  top = top - margin;
+  if (top < 0) top = 0;
+  window.scrollTo({
+    top,
+    behavior: "smooth",
+  });
+}
+
+const Navbar = () => {
+  return (
+    <Wrapper>
+      <NavbarContainer>
+        <Logo>Electrobyte</Logo>
+        <Links>
+          <Link onClick={(e) => smoothScrollTo()}>Home</Link>
+          <Link onClick={(e) => smoothScrollTo("#apps")}>Apps</Link>
+          <Link onClick={(e) => smoothScrollTo("#tech")}>Tech</Link>
+          <Link onClick={(e) => smoothScrollTo("#team")}>Team</Link>
+          <Link onClick={(e) => smoothScrollTo("#work")}>Work With Us</Link>
+          <Link onClick={(e) => smoothScrollTo("#contact", 0)}>Contact</Link>
+        </Links>
+      </NavbarContainer>
+    </Wrapper>
+  );
+};
 
 export default Navbar;

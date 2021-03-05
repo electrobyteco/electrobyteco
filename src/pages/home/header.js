@@ -21,12 +21,18 @@ const Heading = styled.div`
   font-size: 72px;
   font-weight: bold;
   font-style: italic;
+  @media (max-width: 750px) {
+    font-size: 44px;
+  }
 `;
 
 const Subheading = styled.div`
   font-size: 36px;
   font-weight: bold;
   font-style: italic;
+  @media (max-width: 750px) {
+    font-size: 24px;
+  }
 `;
 
 const Backdrop = styled.img`
@@ -39,7 +45,6 @@ const Backdrop = styled.img`
 const BackdropPhaseOut = styled.div`
   position: absolute;
   bottom: 0;
-
   width: 100%;
   height: 250px;
   background: linear-gradient(180deg, rgba(29, 21, 62, 0) 0%, #1d153e 100%); ;
@@ -47,7 +52,7 @@ const BackdropPhaseOut = styled.div`
 
 function Header() {
   return (
-    <Wrapper>
+    <Wrapper id="header">
       <HeadingContainer>
         <Heading>We craft experiences.</Heading>
         <Subheading>From Design to Development.</Subheading>

@@ -4,6 +4,9 @@ import BackgroundFlamingo from "../../images/backgrounds/flamingo.png";
 
 const SectionDivider = styled(Section.Heading)`
   height: 100px;
+  @media (max-width: 800px) {
+    height: 20px;
+  }
 `;
 
 const ContactHeader = styled.div`
@@ -18,6 +21,9 @@ const ContactHeading = styled.div`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media (max-width: 600px) {
+    font-size: 48px;
+  }
 `;
 const ContactSubheading = styled.div`
   font-size: 22px;
@@ -26,6 +32,9 @@ const ContactSubheading = styled.div`
   background-clip: text;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media (max-width: 600px) {
+    font-size: 20px;
+  }
 `;
 const ContactDetails = styled.div`
   width: 50vw;
@@ -33,9 +42,16 @@ const ContactDetails = styled.div`
   display: flex;
   margin-top: 70px;
   justify-content: space-between;
+  @media (max-width: 1280px) {
+    width: 90vw;
+    text-align: center;
+  }
+  @media (max-width: 920px) {
+    flex-direction: column;
+  }
 `;
 const ContactItem = styled.div`
-  font-size: 48px;
+  font-size: 44px;
   font-weight: bold;
   background: ${(props) =>
     props.color === "yellow"
@@ -47,12 +63,23 @@ const ContactItem = styled.div`
   font-style: italic;
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+  @media (max-width: 600px) {
+    font-size: 36px;
+  }
+`;
+
+const Backdrop = styled.img`
+  width: 100%;
+  min-width: 1280px;
+  min-height: 140vh;
+  z-index: -10;
+  position: absolute;
 `;
 
 function Contact() {
   return (
-    <Section>
-      <Section.BackgroundImage src={BackgroundFlamingo} fade={true} />
+    <Section id="contact">
+      <Backdrop src={BackgroundFlamingo} />
       <SectionDivider />
       <Section.Body>
         <ContactHeader>

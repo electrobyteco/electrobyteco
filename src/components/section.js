@@ -22,6 +22,12 @@ Section.Heading = styled.div`
   -webkit-text-fill-color: transparent;
   margin-bottom: 80px;
   z-index: 5;
+  @media (max-width: 1280px) {
+    font-size: 56px;
+  }
+  @media (max-width: 600px) {
+    font-size: 48px;
+  }
 `;
 
 Section.Body = styled(Container)`
@@ -66,8 +72,6 @@ Section.BackgroundFadeAfter = styled.div`
 
 Section.Background = (props) => (
   <Section.BackgroundFadeable>
-    {props.fade ? <Section.BackgroundFadeBefore /> : null}
-    {props.fade ? <Section.BackgroundFadeAfter /> : null}
     <Section.BackgroundImage {...props} />
   </Section.BackgroundFadeable>
 );
