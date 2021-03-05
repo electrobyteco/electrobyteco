@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.c02d3fa6.chunk.css",
+    "main.css": "/static/css/main.6e9f1a2b.chunk.css",
     "main.js": "/static/js/main.3088678a.chunk.js",
     "main.js.map": "/static/js/main.3088678a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.db127adf.js",
@@ -10,7 +10,7 @@
     "static/js/3.916311f5.chunk.js": "/static/js/3.916311f5.chunk.js",
     "static/js/3.916311f5.chunk.js.map": "/static/js/3.916311f5.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.c02d3fa6.chunk.css.map": "/static/css/main.c02d3fa6.chunk.css.map",
+    "static/css/main.6e9f1a2b.chunk.css.map": "/static/css/main.6e9f1a2b.chunk.css.map",
     "static/js/2.5e20a79e.chunk.js.LICENSE.txt": "/static/js/2.5e20a79e.chunk.js.LICENSE.txt",
     "static/media/main.css": "/static/media/Gilroy-Regular.5b89a8df.ttf",
     "static/media/astronaut_optimized.e141e294.jpg": "/static/media/astronaut_optimized.e141e294.jpg",
@@ -42,7 +42,7 @@
   "entrypoints": [
     "static/js/runtime-main.db127adf.js",
     "static/js/2.5e20a79e.chunk.js",
-    "static/css/main.c02d3fa6.chunk.css",
+    "static/css/main.6e9f1a2b.chunk.css",
     "static/js/main.3088678a.chunk.js"
   ]
 }
