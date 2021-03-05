@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.c02d3fa6.chunk.css",
-    "main.js": "/static/js/main.ecd93ae7.chunk.js",
-    "main.js.map": "/static/js/main.ecd93ae7.chunk.js.map",
+    "main.js": "/static/js/main.3088678a.chunk.js",
+    "main.js.map": "/static/js/main.3088678a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.db127adf.js",
     "runtime-main.js.map": "/static/js/runtime-main.db127adf.js.map",
     "static/js/2.5e20a79e.chunk.js": "/static/js/2.5e20a79e.chunk.js",
@@ -13,11 +13,11 @@
     "static/css/main.c02d3fa6.chunk.css.map": "/static/css/main.c02d3fa6.chunk.css.map",
     "static/js/2.5e20a79e.chunk.js.LICENSE.txt": "/static/js/2.5e20a79e.chunk.js.LICENSE.txt",
     "static/media/main.css": "/static/media/Gilroy-Regular.5b89a8df.ttf",
-    "static/media/astronaut.629958c3.png": "/static/media/astronaut.629958c3.png",
+    "static/media/astronaut_optimized.e141e294.jpg": "/static/media/astronaut_optimized.e141e294.jpg",
     "static/media/express.d14039ed.svg": "/static/media/express.d14039ed.svg",
     "static/media/facebook.7be56e57.svg": "/static/media/facebook.7be56e57.svg",
     "static/media/figma.de56cc6f.svg": "/static/media/figma.de56cc6f.svg",
-    "static/media/flamingo.fc3661e8.png": "/static/media/flamingo.fc3661e8.png",
+    "static/media/flamingo_optimized.546ef2dd.jpg": "/static/media/flamingo_optimized.546ef2dd.jpg",
     "static/media/github.3d0cdc83.svg": "/static/media/github.3d0cdc83.svg",
     "static/media/graphql.c66cf8ef.svg": "/static/media/graphql.c66cf8ef.svg",
     "static/media/instagram.12cccc8b.svg": "/static/media/instagram.12cccc8b.svg",
@@ -34,7 +34,7 @@
     "static/media/react.53e1a42d.svg": "/static/media/react.53e1a42d.svg",
     "static/media/sampan.acf3a430.jpg": "/static/media/sampan.acf3a430.jpg",
     "static/media/stream-deck.a777022f.svg": "/static/media/stream-deck.a777022f.svg",
-    "static/media/sunset.0b9ea6e9.png": "/static/media/sunset.0b9ea6e9.png",
+    "static/media/sunset_optimized.b7093066.jpg": "/static/media/sunset_optimized.b7093066.jpg",
     "static/media/the-torrent-company.e9318ec4.png": "/static/media/the-torrent-company.e9318ec4.png",
     "static/media/twitter.d764d5d3.svg": "/static/media/twitter.d764d5d3.svg",
     "static/media/workmap.9342f254.svg": "/static/media/workmap.9342f254.svg"
@@ -43,6 +43,6 @@
     "static/js/runtime-main.db127adf.js",
     "static/js/2.5e20a79e.chunk.js",
     "static/css/main.c02d3fa6.chunk.css",
-    "static/js/main.ecd93ae7.chunk.js"
+    "static/js/main.3088678a.chunk.js"
   ]
 }
