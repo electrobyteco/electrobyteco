@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Section from "../../components/section";
-import BackgroundSunset from "../../images/backgrounds/sunset.png";
+import BackgroundSunset from "../../images/backgrounds/sunset_optimized.jpg";
 
 // Icon Imports
 import IconExpress from "../../images/showcase/express.svg";

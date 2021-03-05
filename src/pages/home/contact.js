@@ -1,6 +1,6 @@
 import styled from "styled-components";
 import Section from "../../components/section";
-import BackgroundFlamingo from "../../images/backgrounds/flamingo.png";
+import BackgroundFlamingo from "../../images/backgrounds/flamingo_optimized.jpg";
 
 const SectionDivider = styled(Section.Heading)`
   height: 100px;

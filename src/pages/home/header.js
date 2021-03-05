@@ -1,5 +1,5 @@
 import styled from "styled-components";
-import BackgroundAstronaut from "../../images/backgrounds/astronaut.png";
+import BackgroundAstronaut from "../../images/backgrounds/astronaut_optimized.jpg";
 
 const Wrapper = styled.header`
   position: relative;
