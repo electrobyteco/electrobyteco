@@ -31,11 +31,13 @@ const Card = styled.div`
     margin-bottom: 50px;
   }
 `;
+
 const CardLink = styled.a`
   position: absolute;
   top: 22px;
   right: 22px;
 `;
+
 const CardTitle = styled.div`
   position: absolute;
   bottom: 22px;

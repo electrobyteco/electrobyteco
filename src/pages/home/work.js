@@ -67,6 +67,7 @@ const Button = styled.button`
   padding: 10px 30px;
   cursor: pointer;
   transition: all 0.2s ease-in-out;
+  font-family: "Gilroy";
   &:hover {
     background: #6844ff;
   }
