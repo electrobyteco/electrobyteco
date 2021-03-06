@@ -44,7 +44,7 @@ const Links = styled.div`
 `;
 
 const Link = styled.div`
-  margin-right: 85px;
+  margin-right: 50px;
   white-space: nowrap;
   cursor: pointer;
   transition: all 200ms ease-in-out;

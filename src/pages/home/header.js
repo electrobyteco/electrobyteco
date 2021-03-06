@@ -9,6 +9,10 @@ const Wrapper = styled.header`
   margin-top: -90px;
   background-size: cover;
   z-index: 0;
+  min-height: 100vh;
+  @media (min-width: 1200px) {
+    min-height: 150vh;
+  }
 `;
 
 const HeadingContainer = styled.div`
@@ -37,17 +41,11 @@ const Subheading = styled.div`
 
 const Backdrop = styled.img`
   width: 100%;
-  min-width: 1280px;
+  /* min-width: 1280px; */
   min-height: 100vh;
   z-index: -10;
-`;
-
-const BackdropPhaseOut = styled.div`
   position: absolute;
-  bottom: 0;
-  width: 100%;
-  height: 250px;
-  background: linear-gradient(180deg, rgba(29, 21, 62, 0) 0%, #1d153e 100%); ;
+  object-fit: cover;
 `;
 
 function Header() {
@@ -57,8 +55,8 @@ function Header() {
         <Heading>We craft experiences.</Heading>
         <Subheading>From Design to Development.</Subheading>
       </HeadingContainer>
+
       <Backdrop src={BackgroundAstronaut} />
-      <BackdropPhaseOut />
     </Wrapper>
   );
 }

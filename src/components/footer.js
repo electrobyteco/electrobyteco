@@ -92,6 +92,9 @@ const FooterWrapper = styled.div`
   @media (max-width: 1500px) {
     bottom: -70vh;
   }
+  @media (max-height: 850px) {
+    bottom: -100vh;
+  }
   @media (max-height: 650px) {
     bottom: -110vh;
   }

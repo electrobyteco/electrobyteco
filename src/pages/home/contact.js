@@ -70,10 +70,12 @@ const ContactItem = styled.div`
 
 const Backdrop = styled.img`
   width: 100%;
-  min-width: 1280px;
-  min-height: 140vh;
+  /* min-width: 1280px; */
+  min-height: 160vh;
   z-index: -10;
   position: absolute;
+  position: absolute;
+  object-fit: cover;
 `;
 
 function Contact() {
