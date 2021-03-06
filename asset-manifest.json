@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.95bf12c1.chunk.css",
-    "main.js": "/static/js/main.047ef114.chunk.js",
-    "main.js.map": "/static/js/main.047ef114.chunk.js.map",
+    "main.js": "/static/js/main.dae8c950.chunk.js",
+    "main.js.map": "/static/js/main.dae8c950.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1752cbf9.js",
     "runtime-main.js.map": "/static/js/runtime-main.1752cbf9.js.map",
     "static/js/2.3d471d24.chunk.js": "/static/js/2.3d471d24.chunk.js",
@@ -31,7 +31,7 @@
     "static/media/nikhil.14f67a4a.jpg": "/static/media/nikhil.14f67a4a.jpg",
     "static/media/node.385abc08.svg": "/static/media/node.385abc08.svg",
     "static/media/open-new-tab.6ab42019.svg": "/static/media/open-new-tab.6ab42019.svg",
-    "static/media/php.2317f523.svg": "/static/media/php.2317f523.svg",
+    "static/media/php8.d5156b99.svg": "/static/media/php8.d5156b99.svg",
     "static/media/pinterest.58c9810c.svg": "/static/media/pinterest.58c9810c.svg",
     "static/media/prabhjot.9e41051f.jpeg": "/static/media/prabhjot.9e41051f.jpeg",
     "static/media/python.ed7fb855.svg": "/static/media/python.ed7fb855.svg",
@@ -49,6 +49,6 @@
     "static/js/runtime-main.1752cbf9.js",
     "static/js/2.3d471d24.chunk.js",
     "static/css/main.95bf12c1.chunk.css",
-    "static/js/main.047ef114.chunk.js"
+    "static/js/main.dae8c950.chunk.js"
   ]
 }
