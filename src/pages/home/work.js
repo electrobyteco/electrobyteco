@@ -3,6 +3,8 @@ import { Formik, Field, ErrorMessage } from "formik";
 import * as yup from "yup";
 import Slider from "react-input-slider";
 import Section from "../../components/section";
+import contentful from "../../services/contentful";
+import swal from "sweetalert";
 
 const FormLabel = styled.label`
   display: block;
@@ -86,6 +88,21 @@ const Budget = styled.div`
 `;
 
 function Work() {
+  async function createProductQuery(fields) {
+    try {
+      const space = await contentful.getSpace("17ixjyhbsigl");
+      const environment = await space.getEnvironment("master");
+      const entry = await environment.createEntry("projectQuery", { fields });
+      await entry.publish();
+      swal(
+        "Yoohoo!",
+        "Your message was recieved by us. We will reply very soon!",
+        "success"
+      );
+    } catch (e) {
+      console.error(e);
+    }
+  }
   const initialValues = {
     name: "",
     email: "",
@@ -104,14 +121,15 @@ function Work() {
     description: yup.string().min(20).max(500).required().label("Description"),
   });
 
-  function sleep(ms) {
-    return new Promise((resolve) => setTimeout(resolve, ms));
-  }
-
   async function sendMessage(values, { resetForm }) {
-    console.log("message", values);
-    await sleep(5 * 1000);
-    alert("TODO");
+    createProductQuery({
+      name: { "en-US": values.name },
+      email: { "en-US": values.email },
+      phoneNumber: { "en-US": values.phone },
+      project: { "en-US": values.project },
+      budget: { "en-US": values.budget },
+      description: { "en-US": values.description },
+    });
     resetForm();
   }
 

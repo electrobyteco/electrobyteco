@@ -8,10 +8,6 @@
   box-sizing: border-box;
 }
 
-html {
-  overflow-x: hidden;
-}
-
 body {
   background: #1d153e;
   color: white;
