@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.95bf12c1.chunk.css",
-    "main.js": "/static/js/main.521c7554.chunk.js",
-    "main.js.map": "/static/js/main.521c7554.chunk.js.map",
+    "main.js": "/static/js/main.c28d275e.chunk.js",
+    "main.js.map": "/static/js/main.c28d275e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1752cbf9.js",
     "runtime-main.js.map": "/static/js/runtime-main.1752cbf9.js.map",
     "static/js/2.3d471d24.chunk.js": "/static/js/2.3d471d24.chunk.js",
@@ -25,6 +25,7 @@
     "static/media/laravel.9dde3384.svg": "/static/media/laravel.9dde3384.svg",
     "static/media/linkedin.0b1f29c4.svg": "/static/media/linkedin.0b1f29c4.svg",
     "static/media/logo-white.6f212a43.svg": "/static/media/logo-white.6f212a43.svg",
+    "static/media/manik.86a28954.jpeg": "/static/media/manik.86a28954.jpeg",
     "static/media/mohit.42d9e55b.jpeg": "/static/media/mohit.42d9e55b.jpeg",
     "static/media/mongodb.18c3a617.svg": "/static/media/mongodb.18c3a617.svg",
     "static/media/mysql.9f80b3ce.svg": "/static/media/mysql.9f80b3ce.svg",
@@ -49,6 +50,6 @@
     "static/js/runtime-main.1752cbf9.js",
     "static/js/2.3d471d24.chunk.js",
     "static/css/main.95bf12c1.chunk.css",
-    "static/js/main.521c7554.chunk.js"
+    "static/js/main.c28d275e.chunk.js"
   ]
 }
