@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.95bf12c1.chunk.css",
-    "main.js": "/static/js/main.30ac69b8.chunk.js",
-    "main.js.map": "/static/js/main.30ac69b8.chunk.js.map",
+    "main.js": "/static/js/main.047ef114.chunk.js",
+    "main.js.map": "/static/js/main.047ef114.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1752cbf9.js",
     "runtime-main.js.map": "/static/js/runtime-main.1752cbf9.js.map",
     "static/js/2.3d471d24.chunk.js": "/static/js/2.3d471d24.chunk.js",
@@ -35,6 +35,7 @@
     "static/media/pinterest.58c9810c.svg": "/static/media/pinterest.58c9810c.svg",
     "static/media/prabhjot.9e41051f.jpeg": "/static/media/prabhjot.9e41051f.jpeg",
     "static/media/python.ed7fb855.svg": "/static/media/python.ed7fb855.svg",
+    "static/media/razat.60f4cd11.jpg": "/static/media/razat.60f4cd11.jpg",
     "static/media/react.53e1a42d.svg": "/static/media/react.53e1a42d.svg",
     "static/media/sampan.acf3a430.jpg": "/static/media/sampan.acf3a430.jpg",
     "static/media/stream-deck.a777022f.svg": "/static/media/stream-deck.a777022f.svg",
@@ -48,6 +49,6 @@
     "static/js/runtime-main.1752cbf9.js",
     "static/js/2.3d471d24.chunk.js",
     "static/css/main.95bf12c1.chunk.css",
-    "static/js/main.30ac69b8.chunk.js"
+    "static/js/main.047ef114.chunk.js"
   ]
 }
