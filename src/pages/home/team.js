@@ -2,7 +2,7 @@ import styled from "styled-components";
 import Section from "../../components/section";
 
 import ImageSampan from "../../images/people/sampan.jpg";
-import ImageRazat from "../../images/people/sampan.jpg";
+import ImageRazat from "../../images/people/razat.jpg";
 import ImageNikhil from "../../images/people/nikhil.jpg";
 import ImageManik from "../../images/people/sampan.jpg";
 import ImageTushar from "../../images/people/tushar.jpg";
