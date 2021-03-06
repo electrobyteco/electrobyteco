@@ -4,7 +4,7 @@ import Section from "../../components/section";
 import ImageSampan from "../../images/people/sampan.jpg";
 import ImageRazat from "../../images/people/razat.jpg";
 import ImageNikhil from "../../images/people/nikhil.jpg";
-import ImageManik from "../../images/people/sampan.jpg";
+import ImageManik from "../../images/people/manik.jpeg";
 import ImageTushar from "../../images/people/tushar.jpg";
 import ImagePrabhjot from "../../images/people/prabhjot.jpeg";
 import ImageLakshay from "../../images/people/lakshay.jpeg";
@@ -15,6 +15,7 @@ const Card = styled.div`
   margin-right: 10px;
   margin-bottom: 50px;
   opacity: ${(props) => (props.filler ? 0 : 1)};
+
   @media (max-width: 1280px) {
     display: ${(props) => (props.filler ? "none" : "block")};
     margin-bottom: 30px;
@@ -46,6 +47,7 @@ const CardImage = styled.img`
 const CardTitle = styled.div`
   font-size: 22px;
   font-weight: bold;
+  margin-top: 10px;
   @media (max-width: 600px) {
     font-size: 20px;
   }
@@ -56,6 +58,7 @@ const CardSubTitle = styled.div`
   @media (max-width: 600px) {
     font-size: 18px;
   }
+  margin-bottom: 50px;
 `;
 
 function Person({ name, category, image, filler }) {

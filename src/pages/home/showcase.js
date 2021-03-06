@@ -13,7 +13,7 @@ import IconMysql from "../../images/showcase/mysql.svg";
 import IconLaravel from "../../images/showcase/laravel.svg";
 import IconNode from "../../images/showcase/node.svg";
 import IconReactNative from "../../images/showcase/react.svg";
-import IconPhp from "../../images/showcase/php.svg";
+import IconPhp from "../../images/showcase/php8.svg";
 import IconPython from "../../images/showcase/python.svg";
 
 const Card = styled.div`
@@ -95,7 +95,7 @@ function Showcase() {
             icon={IconReactNative}
             color="#00D8FF"
           />
-          <Software name="PHP" icon={IconPhp} color="white" />
+          <Software name="" icon={IconPhp} color="white" />
           <Software name="Python" icon={IconPython} color="#FFD550" />
         </SoftwareGrid>
       </Section.Body>

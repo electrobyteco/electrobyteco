@@ -71,11 +71,14 @@ const FooterSectionBody = styled.div`
 
 const FooterSocialIcons = styled.div`
   display: flex;
+  width: 100%;
+  justify-content: center;
 `;
 
 const FooterSocialIcon = styled.a`
   cursor: pointer;
-  margin-right: 20px;
+  margin-left: 10px;
+  margin-right: 10px;
   &:hover {
     filter: brightness(0.5) sepia(1) saturate(10000%) hue-rotate(270deg)
       brightness(0.9);

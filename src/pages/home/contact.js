@@ -92,7 +92,7 @@ function Contact() {
         </ContactHeader>
         <ContactDetails>
           <ContactItem color="yellow">+91 7888535324</ContactItem>
-          <ContactItem color="blue">hello@electrobyte.co</ContactItem>
+          <ContactItem color="blue">sampan.developer@gmail.com</ContactItem>
         </ContactDetails>
       </Section.Body>
     </Section>
