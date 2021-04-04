@@ -3,18 +3,19 @@ import Section from "../../components/section";
 
 import ImageSampan from "../../images/people/sampan.jpg";
 import ImageRazat from "../../images/people/razat.jpg";
-import ImageNikhil from "../../images/people/nikhil.jpg";
 import ImageManik from "../../images/people/manik.jpeg";
 import ImageTushar from "../../images/people/tushar.jpg";
-import ImagePrabhjot from "../../images/people/prabhjot.jpeg";
 import ImageLakshay from "../../images/people/lakshay.jpeg";
+import ImagePrabhjot from "../../images/people/prabhjot.jpeg";
 import ImageMohit from "../../images/people/mohit.jpeg";
+import ImageNikhil from "../../images/people/nikhil.jpg";
 
 const Card = styled.div`
   margin-left: 10px;
   margin-right: 10px;
   margin-bottom: 50px;
   opacity: ${(props) => (props.filler ? 0 : 1)};
+  cursor: pointer;
 
   @media (max-width: 1280px) {
     display: ${(props) => (props.filler ? "none" : "block")};
@@ -33,6 +34,11 @@ const Card = styled.div`
 const CardImage = styled.img`
   width: 350px;
   border-radius: 10px;
+  transition: all 0.2s ease-in-out;
+
+  &:hover {
+    transform: scale(1.05);
+  }
   @media (max-width: 1280px) {
     width: 300px;
   }
@@ -61,9 +67,13 @@ const CardSubTitle = styled.div`
   margin-bottom: 50px;
 `;
 
-function Person({ name, category, image, filler }) {
+function Person({ name, category, image, filler, link }) {
+  function onClick() {
+    if (link) window.open(link, "_blank").focus();
+  }
+
   return (
-    <Card filler={filler}>
+    <Card filler={filler} onClick={onClick}>
       {filler ? (
         <>
           <CardImage src={ImageSampan} />
@@ -94,25 +104,51 @@ function Team() {
       <Section.Body>
         <People>
           <Person name="Sampan Verma" category="Founder" image={ImageSampan} />
-          <Person name="Razat Verma" category="CTO" image={ImageRazat} />
           <Person
-            name="Nikhil Kaushal"
-            category="Engineer"
-            image={ImageNikhil}
+            name="Razat Verma"
+            category="CTO"
+            image={ImageRazat}
+            link="http://razat.me"
           />
-          <Person name="Tushar Arora" category="Engineer" image={ImageTushar} />
           <Person
-            name="Prabhjot Dhillon"
+            name="Tushar Arora"
             category="Engineer"
-            image={ImagePrabhjot}
+            image={ImageTushar}
+            link="http://tushararora.studio"
           />
+          <Person
+            name="Manik Agnish"
+            category="Engineer"
+            image={ImageManik}
+            link="http://manikagnish.com"
+          />
+
           <Person
             name="Lakshay Chabbra"
             category="Engineer"
             image={ImageLakshay}
+            link="http://lakshaychabra.com"
           />
-          <Person name="Mohit Mahajan" category="Engineer" image={ImageMohit} />
-          <Person name="Manik Agnish" category="Engineer" image={ImageManik} />
+          {/*
+            <Person
+              name="Nikhil Kaushal"
+              category="Engineer"
+              image={ImageNikhil}
+              link="http://localhost"
+            />
+            <Person
+              name="Prabhjot Dhillon"
+              category="Engineer"
+              image={ImagePrabhjot}
+              link="http://localhost"
+            />
+            <Person
+              name="Mohit Mahajan"
+              category="Engineer"
+              image={ImageMohit}
+              link="http://localhost"
+            />
+          */}
           <Person filler={true} />
         </People>
       </Section.Body>

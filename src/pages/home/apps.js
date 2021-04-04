@@ -3,7 +3,7 @@ import Section from "../../components/section";
 import { ReactComponent as IconOpenInNewTab } from "../../images/open-new-tab.svg";
 import AppIconWorkmap from "../../images/apps/workmap.svg";
 import AppIconStreamDeck from "../../images/apps/stream-deck.svg";
-import AppBackgroundTorrentCompany from "../../images/apps/the-torrent-company.png";
+import AppIconPartySplit from "../../images/apps/partysplit.svg";
 
 const Card = styled.div`
   position: relative;
@@ -81,13 +81,25 @@ function Apps() {
       <Section.Heading>Apps</Section.Heading>
       <SectionBody>
         <App
-          title="The Torrent Company"
-          link="http://thetorrentcompany.com"
-          backgroundImage={AppBackgroundTorrentCompany}
+          title={
+            <>
+              <div>Party Split</div>
+              <small>Organize great parties!</small>
+            </>
+          }
+          link="https://www.figma.com/proto/1YV3387l7L9MqjmANWar1X/The-Party-App?node-id=1%3A2&viewport=366%2C527%2C1.1641124486923218&scaling=scale-down&page-id=0%3A1"
+          icon={AppIconPartySplit}
+          background="linear-gradient(180deg, #FFFFFF 0%, #D0D0D0 100%)"
+          invertColor={true}
         />
         <App
-          title="Workmap App"
-          link="http://workmap.io"
+          title={
+            <>
+              <div>Workmap</div>
+              <small>Project Management Effective</small>
+            </>
+          }
+          link="https://www.figma.com/proto/qccMREvgMKDQJXJF9zfdbn/Workmap?node-id=1%3A2&viewport=74%2C78%2C0.621474027633667&scaling=min-zoom&page-id=0%3A1"
           icon={AppIconWorkmap}
           background="linear-gradient(180deg, #FFFFFF 0%, #D0D0D0 100%)"
           invertColor={true}

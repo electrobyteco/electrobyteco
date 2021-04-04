@@ -7,6 +7,7 @@ import IconFacebook from "../images/social/facebook.svg";
 import IconInstagram from "../images/social/instagram.svg";
 import IconLinkedin from "../images/social/linkedin.svg";
 import IconPinterest from "../images/social/pinterest.svg";
+import IconYoutube from "../images/social/youtube.svg";
 import IconTwitter from "../images/social/twitter.svg";
 
 const FooterBody = styled.div`
@@ -134,19 +135,34 @@ function Footer() {
           <FooterSection right={true}>
             <FooterSectionHeading>Follow Us</FooterSectionHeading>
             <FooterSocialIcons>
-              <FooterSocialIcon href="http://facebook.com" target="_blank">
+              <FooterSocialIcon
+                href="https://www.facebook.com/electrobyte.co/"
+                target="_blank"
+              >
                 <img src={IconFacebook} alt="Link to our Facebook page" />
               </FooterSocialIcon>
-              <FooterSocialIcon href="http://instagram.com" target="_blank">
+              <FooterSocialIcon
+                href="https://www.instagram.com/electrobyte.co/"
+                target="_blank"
+              >
                 <img src={IconInstagram} alt="Link to our Instagram page" />
               </FooterSocialIcon>
-              <FooterSocialIcon href="http://linkedin.com" target="_blank">
+              <FooterSocialIcon
+                href="https://www.linkedin.com/company/electrobyte"
+                target="_blank"
+              >
                 <img src={IconLinkedin} alt="Link to our Linkedin page" />
               </FooterSocialIcon>
-              <FooterSocialIcon href="http://pinterest.com" target="_blank">
-                <img src={IconPinterest} alt="Link to our Pinterest page" />
+              <FooterSocialIcon
+                href="https://www.youtube.com/channel/UCONRtMcQpb5XNne7l7AcnKQ"
+                target="_blank"
+              >
+                <img src={IconYoutube} alt="Edit Youtube Channel" />
               </FooterSocialIcon>
-              <FooterSocialIcon href="http://twitter.com" target="_blank">
+              <FooterSocialIcon
+                href="https://twitter.com/electrobyte4"
+                target="_blank"
+              >
                 <img src={IconTwitter} alt="Link to our Twitter page" />
               </FooterSocialIcon>
             </FooterSocialIcons>
