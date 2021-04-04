@@ -112,30 +112,30 @@ function Team() {
           />
           <Person
             name="Tushar Arora"
-            category="Engineer"
+            category="Back-End Engineer"
             image={ImageTushar}
             link="http://tushararora.studio"
           />
           <Person
             name="Manik Agnish"
-            category="Engineer"
+            category="Back-End Developer"
             image={ImageManik}
             link="http://manikagnish.com"
           />
 
           <Person
             name="Lakshay Chabbra"
-            category="Engineer"
+            category="Front-End Developer"
             image={ImageLakshay}
             link="http://lakshaychabra.com"
           />
+          <Person
+            name="Nikhil Kaushal"
+            category="Front-End Developer"
+            image={ImageNikhil}
+            link="http://nikhilkaushal.in"
+          />
           {/*
-            <Person
-              name="Nikhil Kaushal"
-              category="Engineer"
-              image={ImageNikhil}
-              link="http://localhost"
-            />
             <Person
               name="Prabhjot Dhillon"
               category="Engineer"
@@ -149,7 +149,7 @@ function Team() {
               link="http://localhost"
             />
           */}
-          <Person filler={true} />
+          {/* <Person filler={true} /> */}
         </People>
       </Section.Body>
     </Section>
