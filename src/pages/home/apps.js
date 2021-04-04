@@ -106,7 +106,7 @@ function Apps() {
         />
         <App
           title="Stream Deck App"
-          link="http://streamdeck.com"
+          link="https://www.figma.com/proto/8kipUpe7O1gGl36M9YGRA5/Stream-Deck?node-id=1%3A3&viewport=25%2C283%2C0.15678733587265015&scaling=min-zoom&page-id=0%3A1"
           icon={AppIconStreamDeck}
           background="linear-gradient(180deg, #000000 0%, #1D1D1D 100%)"
         />
