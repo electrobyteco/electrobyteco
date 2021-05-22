@@ -6,7 +6,7 @@ import Logo from "../images/logo-white.svg";
 import IconFacebook from "../images/social/facebook.svg";
 import IconInstagram from "../images/social/instagram.svg";
 import IconLinkedin from "../images/social/linkedin.svg";
-import IconPinterest from "../images/social/pinterest.svg";
+// import IconPinterest from "../images/social/pinterest.svg";
 import IconYoutube from "../images/social/youtube.svg";
 import IconTwitter from "../images/social/twitter.svg";
 

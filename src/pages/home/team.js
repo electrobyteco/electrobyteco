@@ -103,12 +103,16 @@ function Team() {
       <Section.Heading>We are a team</Section.Heading>
       <Section.Body>
         <People>
-          <Person name="Sampan Verma" category="Founder" image={ImageSampan} />
           <Person
             name="Razat Verma"
-            category="CTO"
+            category="Founder, CTO"
             image={ImageRazat}
             link="http://razat.me"
+          />
+          <Person
+            name="Sampan Verma"
+            category="Senior Developer"
+            image={ImageSampan}
           />
           <Person
             name="Tushar Arora"
@@ -122,7 +126,6 @@ function Team() {
             image={ImageManik}
             link="http://manikagnish.com"
           />
-
           <Person
             name="Lakshay Chabbra"
             category="Front-End Developer"
@@ -135,20 +138,20 @@ function Team() {
             image={ImageNikhil}
             link="http://nikhilkaushal.in"
           />
-          {/*
-            <Person
-              name="Prabhjot Dhillon"
-              category="Engineer"
-              image={ImagePrabhjot}
-              link="http://localhost"
-            />
-            <Person
-              name="Mohit Mahajan"
-              category="Engineer"
-              image={ImageMohit}
-              link="http://localhost"
-            />
-          */}
+
+          <Person
+            name="Prabhjot Dhillon"
+            category="Engineer"
+            image={ImagePrabhjot}
+            // link="http://localhost"
+          />
+          <Person
+            name="Mohit Mahajan"
+            category="Engineer"
+            image={ImageMohit}
+            link="http://mohitmahajan.in"
+          />
+
           {/* <Person filler={true} /> */}
         </People>
       </Section.Body>
