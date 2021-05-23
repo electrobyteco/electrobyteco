@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.f9903162.chunk.css",
-    "main.js": "/static/js/main.8eefd10a.chunk.js",
-    "main.js.map": "/static/js/main.8eefd10a.chunk.js.map",
+    "main.js": "/static/js/main.7468318a.chunk.js",
+    "main.js.map": "/static/js/main.7468318a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1752cbf9.js",
     "runtime-main.js.map": "/static/js/runtime-main.1752cbf9.js.map",
     "static/js/2.3d471d24.chunk.js": "/static/js/2.3d471d24.chunk.js",
@@ -32,9 +32,8 @@
     "static/media/nikhil.14f67a4a.jpg": "/static/media/nikhil.14f67a4a.jpg",
     "static/media/node.385abc08.svg": "/static/media/node.385abc08.svg",
     "static/media/open-new-tab.6ab42019.svg": "/static/media/open-new-tab.6ab42019.svg",
-    "static/media/partysplit.afc3c9ff.svg": "/static/media/partysplit.afc3c9ff.svg",
-    "static/media/php8.d5156b99.svg": "/static/media/php8.d5156b99.svg",
-    "static/media/pinterest.58c9810c.svg": "/static/media/pinterest.58c9810c.svg",
+    "static/media/partysplit.e7d49a31.svg": "/static/media/partysplit.e7d49a31.svg",
+    "static/media/php8.78f264d5.svg": "/static/media/php8.78f264d5.svg",
     "static/media/prabhjot.9e41051f.jpeg": "/static/media/prabhjot.9e41051f.jpeg",
     "static/media/python.ed7fb855.svg": "/static/media/python.ed7fb855.svg",
     "static/media/razat.60f4cd11.jpg": "/static/media/razat.60f4cd11.jpg",
@@ -51,6 +50,6 @@
     "static/js/runtime-main.1752cbf9.js",
     "static/js/2.3d471d24.chunk.js",
     "static/css/main.f9903162.chunk.css",
-    "static/js/main.8eefd10a.chunk.js"
+    "static/js/main.7468318a.chunk.js"
   ]
 }
